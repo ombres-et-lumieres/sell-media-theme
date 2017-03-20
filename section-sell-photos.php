@@ -2,13 +2,6 @@
 <?php
 if (!is_archive())
 {
-/*
-	$args = array(
-		'posts_per_page' => 25,
-		'post_type' => 'sell_media_item',
-	);
-	$query = new WP_Query( $args );
-*/
 echo do_shortcode("[sell_media_filter]");
 
 	}
